@@ -1,0 +1,14 @@
+# .bashrc
+alias ls="ls -G"
+alias ll="ls -l"
+
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+export HISTSIZE=10000
+export HISTCONTROL=erasedups
+
+shopt -s histappend
+
+PS1='\n[\u@\h:\w \D{%a %H:%M:%S} \j $?]\n$'
+
+export PATH=$PATH:~/bin
