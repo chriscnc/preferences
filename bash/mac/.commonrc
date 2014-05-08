@@ -1,5 +1,5 @@
 # .bashrc
-alias ls="ls -F -G --color==tty"
+alias ls="ls -G"
 alias ll="ls -l"
 
 export CLICOLOR=1
