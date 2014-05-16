@@ -9,6 +9,7 @@ set ruler			" show the cursor position all the time
 set showcmd			" display incomplete commands
 set incsearch			" do incremental searching
 "set showtabline=2
+colorscheme desert
 
 execute pathogen#infect()
 
@@ -72,4 +73,5 @@ if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 		  \ | wincmd p | diffthis
 endif
+
 
