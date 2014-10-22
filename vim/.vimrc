@@ -49,6 +49,8 @@ if has("autocmd")
   " For all text files set 'textwidth' to 78 characters.
   autocmd FileType text setlocal textwidth=78
   autocmd FileType html setlocal shiftwidth=2 tabstop=2
+  autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+  autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
