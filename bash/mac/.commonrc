@@ -12,4 +12,3 @@ shopt -s histappend
 
 PS1='\n[\u@\h:\w \D{%a %H:%M:%S} \j $?]\n$'
 
-export PATH=$PATH:~/bin
